@@ -19,8 +19,8 @@
 		E9F1A89C2D816F7F0007FC11 /* TiltCrypticFlopEtherealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1A89B2D816F7F0007FC11 /* TiltCrypticFlopEtherealUITestsLaunchTests.swift */; };
 		E9F1A8A92D8172BD0007FC11 /* FlopCardGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1A8A82D8172BD0007FC11 /* FlopCardGameVC.swift */; };
 		E9F1A8AB2D8172D80007FC11 /* FlopHowtoPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1A8AA2D8172D80007FC11 /* FlopHowtoPlayVC.swift */; };
-		E9F1A8AE2D8172F20007FC11 /* HowtoPlayTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1A8AC2D8172F20007FC11 /* HowtoPlayTVC.swift */; };
-		E9F1A8AF2D8172F20007FC11 /* HowtoPlayTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F1A8AD2D8172F20007FC11 /* HowtoPlayTVC.xib */; };
+		E9F1A8AE2D8172F20007FC11 /* FlopHowtoPlayTVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1A8AC2D8172F20007FC11 /* FlopHowtoPlayTVCCell.swift */; };
+		E9F1A8AF2D8172F20007FC11 /* FlopHowtoPlayTVCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F1A8AD2D8172F20007FC11 /* FlopHowtoPlayTVCCell.xib */; };
 		E9F1A8B12D8173170007FC11 /* FlopGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1A8B02D8173170007FC11 /* FlopGameVC.swift */; };
 		E9F1A8B32D81732D0007FC11 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1A8B22D81732D0007FC11 /* GameScene.swift */; };
 		E9F1A8B52D81734C0007FC11 /* FlopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F1A8B42D81734C0007FC11 /* FlopModel.swift */; };
@@ -72,8 +72,8 @@
 		E9F1A89B2D816F7F0007FC11 /* TiltCrypticFlopEtherealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltCrypticFlopEtherealUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E9F1A8A82D8172BD0007FC11 /* FlopCardGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlopCardGameVC.swift; sourceTree = "<group>"; };
 		E9F1A8AA2D8172D80007FC11 /* FlopHowtoPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlopHowtoPlayVC.swift; sourceTree = "<group>"; };
-		E9F1A8AC2D8172F20007FC11 /* HowtoPlayTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowtoPlayTVC.swift; sourceTree = "<group>"; };
-		E9F1A8AD2D8172F20007FC11 /* HowtoPlayTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HowtoPlayTVC.xib; sourceTree = "<group>"; };
+		E9F1A8AC2D8172F20007FC11 /* FlopHowtoPlayTVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlopHowtoPlayTVCCell.swift; sourceTree = "<group>"; };
+		E9F1A8AD2D8172F20007FC11 /* FlopHowtoPlayTVCCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlopHowtoPlayTVCCell.xib; sourceTree = "<group>"; };
 		E9F1A8B02D8173170007FC11 /* FlopGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlopGameVC.swift; sourceTree = "<group>"; };
 		E9F1A8B22D81732D0007FC11 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E9F1A8B42D81734C0007FC11 /* FlopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlopModel.swift; sourceTree = "<group>"; };
@@ -167,8 +167,8 @@
 				E9F1A87C2D816F7C0007FC11 /* ViewController.swift */,
 				E9F1A8A82D8172BD0007FC11 /* FlopCardGameVC.swift */,
 				E9F1A8AA2D8172D80007FC11 /* FlopHowtoPlayVC.swift */,
-				E9F1A8AC2D8172F20007FC11 /* HowtoPlayTVC.swift */,
-				E9F1A8AD2D8172F20007FC11 /* HowtoPlayTVC.xib */,
+				E9F1A8AC2D8172F20007FC11 /* FlopHowtoPlayTVCCell.swift */,
+				E9F1A8AD2D8172F20007FC11 /* FlopHowtoPlayTVCCell.xib */,
 				E9F1A8B02D8173170007FC11 /* FlopGameVC.swift */,
 				E9F1A8B22D81732D0007FC11 /* GameScene.swift */,
 				E9F1A8B42D81734C0007FC11 /* FlopModel.swift */,
@@ -320,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9F1A8852D816F7F0007FC11 /* LaunchScreen.storyboard in Resources */,
-				E9F1A8AF2D8172F20007FC11 /* HowtoPlayTVC.xib in Resources */,
+				E9F1A8AF2D8172F20007FC11 /* FlopHowtoPlayTVCCell.xib in Resources */,
 				E9F1A8822D816F7F0007FC11 /* Assets.xcassets in Resources */,
 				E9F1A8802D816F7C0007FC11 /* Main.storyboard in Resources */,
 			);
@@ -405,7 +405,7 @@
 				E9F1A87B2D816F7C0007FC11 /* SceneDelegate.swift in Sources */,
 				E9F1A9552D827D5A0007FC11 /* UIViewController+flop.m in Sources */,
 				E9F1A95B2D827D8E0007FC11 /* FlopPrivacyPolicyWebVC.m in Sources */,
-				E9F1A8AE2D8172F20007FC11 /* HowtoPlayTVC.swift in Sources */,
+				E9F1A8AE2D8172F20007FC11 /* FlopHowtoPlayTVCCell.swift in Sources */,
 				E9F1A8C12D8173D60007FC11 /* FlopExtension.swift in Sources */,
 				E9F1A8B92D81737A0007FC11 /* FlopSettingVC.swift in Sources */,
 			);
@@ -585,7 +585,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TiltCrypticFlopEthereal/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TiltCryptic FlopEthereal";
@@ -621,7 +621,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TiltCrypticFlopEthereal/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "TiltCryptic FlopEthereal";
